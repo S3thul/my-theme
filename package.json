@@ -1,0 +1,30 @@
+{
+    "name": "my-personal-theme",
+    "displayName": "My Personal Theme",
+    "description": "my personal theme",
+    "publisher": "Seth J",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "galleryBanner": {
+        "theme":"dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords" : [
+        "SJ",
+        "Dark",
+        "odd colours"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "idk theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/idk theme-color-theme.json"
+            }
+        ]
+    }
+}
